@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday of Rameesha</title>
+  <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+  <section class="max-w-[600px] relative h-screen mx-auto overflow-hidden " id="cover">
+    <div class="w-full absolute flex flex-col justify-between h-full text-center">
+        <img src="./src/assets/balon.png" alt="" class="w-full">
+        <div class="w-full mt-[-30vw] lg:mt-[-14vw]">
+          <img src="./src/assets/welcome.png" class="w-[35vw] lg:w-[10vw] mx-auto" alt="">
+          <div class="w-full  relative text-center ">
+            <img src="./src/assets/oval.png" class="w-[40vw] lg:w-[15vw] mx-auto text-center mb-[-7.5vh] lg:mb-[-6vw]" alt="">
+            <p class="font-vibes text-[8vw] text-[#ff66c4] lg:text-[3vw] font-bold mx-auto">Rameesha</p>
+          </div>
+          <h1 class="font-sancreek text-[8vw] lg:text-[2.5vw] text-[#fd91be] mt-[10vw] lg:mt-[3vw] text-center">First Birthday Party</h1>
+          <div class="flex w-full justify-between px-[5vh] lg:px-[12vh] mt-[2vh]">
+            <img src="./src/assets/bki.png" class="w-[20vw] lg:w-[5vw] h-auto animate-pulse" alt="">
+            <img src="./src/assets/mainan.png" class="w-[40vw] lg:w-[10vw]" alt="">
+            <img src="./src/assets/bka.png" class="w-[20vw] lg:w-[5vw] animate-pulse" alt="">
+          </div>
+          <p class="font-sancreek text-[#ff66c4] text-[5vw] lg:text-[1.4vw] text-center lg:mt-[1vw] mt-[7vw]">Saturday, December 21 2024</p>
+          <button class="bg-[#ff66c4] px-[6vw] lg:px-[2vw] py-[2vw] lg:py-[1vw] rounded-full mt-[7vw] lg:mt-[1vw] mx-auto">
+            <p class="font-sancreek text-white text-[5vw] lg:text-[1.4vw]">Open Invitation</p>
+          </button>
+        </div>
+        <img src="./src/assets/kado.png" alt="" class="w-full">
+    </div>
+    <div class="  w-full h-full">
+        <img src="./src/assets/bg.jpg" class="w-full h-screen object-cover mx-auto" alt="">
+    </div>
+  </section>
+
+  <section id="content" class=" bg-main bg-cover w-full h-full hidden">
+    <div class="w-full relative z-10 flex flex-col">
+      <img src="./src/assets/balon.png" alt="" class="w-full">
+      <div class="w-full  relative text-center mt-[-30vw] lg:mt-[-14vw]">
+        <img src="./src/assets/oval.png" class="w-[40vw] lg:w-[15vw] mx-auto text-center mb-[-7.5vh] lg:mb-[-6vw]" alt="">
+        <p class="font-vibes text-[8vw] text-[#ff66c4] lg:text-[3vw] font-bold mx-auto">Rameesha</p>
+      </div>
+      <p class="font-vibes italic text-[7vw] font-bold text-[#ff66c4] text-center mt-[5vw]">is turning</p>
+      <div class="flex w-full justify-between items-center  mt-[2vh]">
+        <img src="./src/assets/2bi.png" class="w-[8vh] object-contain lg:w-[5vw] h-auto animate-pulse" alt="">
+        <img src="./src/assets/kue.png" class="w-[20vw] lg:w-[10vw] object-contain" alt="">
+        <img src="./src/assets/2ba.png" class="w-[8vh] lg:w-[5vw] animate-pulse " alt="">
+      </div>
+      <!-- Carousel -->
+      <div id="carousel" class="relative overflow-hidden rounded-lg">
+        <div class="carousel-images flex transition-transform duration-500 ease-in-out">
+          <img class="w-screen  object-cover" src="./src/assets/1.jpeg" alt="Image 1">
+          <img class="w-screen  object-cover" src="./src/assets/2.jpeg" alt="Image 2">
+          <img class="w-screen  object-cover" src="./src/assets/3.jpeg" alt="Image 3">
+          <img class="w-screen  object-cover" src="./src/assets/4.jpeg" alt="Image 3">
+
+          <img class="w-screen  object-cover" src="./src/assets/5.jpeg" alt="Image 3">
+
+          <img class="w-screen  object-cover" src="./src/assets/6.jpeg" alt="Image 3">
+
+        </div>
+
+        <!-- Navigasi -->
+        <button id="prev" class="absolute top-1/2 left-2 transform -translate-y-1/2 bg-black text-white p-2 rounded-full">
+          &#10094;
+        </button>
+        <button id="next" class="absolute top-1/2 right-2 transform -translate-y-1/2 bg-black text-white p-2 rounded-full">
+          &#10095;
+        </button>
+      </div>
+      <div class="grid grid-cols-2 gap-y-[4vh] px-[7vh] mt-[4vh]">
+        <div class="text-center">
+          <p class="bg-[#f8bfbf] text-center mx-auto px-[6vh] py-[1vh] rounded-full text-[6vw] font-sancreek text-white w-fit">7</p>
+          <p class="font-sancreek text-[5vw] text-[#ff66c4] mt-[1vh]">Days</p>
+        </div>
+        <div class="text-center">
+          <p class="bg-[#f8bfbf] text-center mx-auto px-[6vh] py-[1vh] rounded-full text-[6vw] font-sancreek text-white w-fit">7</p>
+          <p class="font-sancreek text-[5vw] text-[#ff66c4] mt-[1vh]">Hours</p>
+        </div>
+        <div class="text-center">
+          <p class="bg-[#f8bfbf] text-center mx-auto px-[6vh] py-[1vh] rounded-full text-[6vw] font-sancreek text-white w-fit">7</p>
+          <p class="font-sancreek text-[5vw] text-[#ff66c4] mt-[1vh]">Minutes</p>
+        </div>
+        <div class="text-center">
+          <p class="bg-[#f8bfbf] text-center mx-auto px-[6vh] py-[1vh] rounded-full text-[6vw] font-sancreek text-white w-fit">7</p>
+          <p class="font-sancreek text-[5vw] text-[#ff66c4] mt-[1vh]">Seconds</p>
+        </div>
+      </div>
+      <img src="./src/assets/main.png" alt="" class="w-full mt-[9vw]">
+      <p class="mt-[3vh] text-[6vw] text-center font-sancreek text-[#ff66c4]">Saturday</p>
+      <div class=" mt-[2vh] grid grid-cols-3 justify-between px-[5vh] items-center">
+        <p class="text-[6vw] text-center font-sancreek text-[#ff66c4]">December</p>
+        <p class="mt-[-1vh] text-[9vw] text-center font-bold text-[#f8bfbf]">21</p>
+        <p class="text-[6vw] text-center font-sancreek text-[#ff66c4]">2024</p>
+      </div>
+      <p class="mt-[2vh] text-[6vw] text-center font-sancreek text-[#ff66c4]">At 11.00 AM</p>
+      <p class="mt-[2vh] text-[5vw] text-center font-sancreek text-[#ff66c4]">Dresscode : Pastel</p>
+
+      <img src="./src/assets/pinpoint.png" class="w-[1.4vh] mx-auto mt-[2vh]" alt="">
+      <p class="mt-[2vh] text-[6vw] text-center font-sancreek text-[#ff66c4]">Popeyes Kemang</p>
+      <p class="text-[4vw] mt-[1vh] text-center font-sancreek text-[#ff66c4]">Jl. Kemang Raya No. 73 Jakarta Selatan</p>
+      <button class="bg-[#f8bfbf] px-[6vw] lg:px-[2vw] py-[2vw] lg:py-[1vw] rounded-full mt-[5vw] lg:mt-[1vw] mx-auto">
+        <p class="font-sancreek text-white text-[5vw] lg:text-[1.4vw]">See Location</p>
+      </button>
+      <img src="./src/assets/tent.png" class="mt-[5vw]" alt="">
+      <div class="w-full py-[5vw] px-[4vw] bg-[#f8bfbf]">
+        <p class=" text-[6vw]  font-sancreek text-white">Send Wishes</p>
+        <form action="" class="mt-[3vw]">
+          <div>
+            <label for="name" class="text-white text-[5vw] font-bold">Name : </label>
+            <br>
+          <input type="text" name="name" id="name" class="border-2 border-white w-full px-[3vw] py-[2vw] text-white text-[4vw] bg-transparent mt-[3vw]">
+          </div>
+
+          <div class="mt-[4vw]">
+            <label for="wishes" class="text-white text-[5vw] font-bold">Wishes : </label>
+            <br>
+          <input type="text" name="wishes" id="wishes" class="border-2 border-white w-full px-[3vw] py-[2vw] text-white text-[4vw] bg-transparent mt-[3vw]">
+          </div>
+
+          <div class="mt-[4vw]">
+            <label for="attend" class="text-white text-[5vw] font-bold">Wishes : </label>
+            <br>
+            <select name="attend" id="attend" class="border-2 border-white w-full px-[3vw] py-[2vw] text-white text-[4vw] bg-transparent mt-[3vw]">
+              <option value="hadir" class="text-black">Hadir</option>
+              <option value="tidak" class="text-black">Tidak Hadir</option>
+            </select>
+          </div>
+          <button class="bg-[#ff66c4] px-[10vw] lg:px-[2vw] py-[2vw] lg:py-[1vw] rounded-full mt-[5vw] lg:mt-[1vw] mx-auto">
+            <p class="font-sancreek text-white text-[4vw] lg:text-[1.4vw]">Send</p>
+          </button>
+        </form>
+      </div>
+
+      <div class="w-full h-[70vh] overflow-y-scroll bg-white border border-[#ff66c4] px-[3vh] py-[2vh]">
+
+        <p class=" text-[6vw] font-sancreek text-[#ff66c4]">Wishes</p>
+
+        <div class="border-t mt-[2vh] pt-[1vh] border-[#ff66c4]">
+          <div class="flex justify-between items-center">
+            <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Nama</p>
+          <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Hadir</p>
+          </div>
+
+          <p class="mt-[1.3vh] text-[3vw] text-[#ff66c4]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum maxime nobis alias inventore corrupti non quibusdam itaque praesentium. Reiciendis in eaque modi quidem odit. Quasi asperiores officia reiciendis dolorum.</p>
+        </div>
+
+        <div class="border-t mt-[2vh] pt-[1vh] border-[#ff66c4]">
+          <div class="flex justify-between items-center">
+            <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Nama</p>
+          <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Hadir</p>
+          </div>
+
+          <p class="mt-[1.3vh] text-[3vw] text-[#ff66c4]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum maxime nobis alias inventore corrupti non quibusdam itaque praesentium. Reiciendis in eaque modi quidem odit. Quasi asperiores officia reiciendis dolorum.</p>
+        </div>
+
+        <div class="border-t mt-[2vh] pt-[1vh] border-[#ff66c4]">
+          <div class="flex justify-between items-center">
+            <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Nama</p>
+          <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Hadir</p>
+          </div>
+
+          <p class="mt-[1.3vh] text-[3vw] text-[#ff66c4]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum maxime nobis alias inventore corrupti non quibusdam itaque praesentium. Reiciendis in eaque modi quidem odit. Quasi asperiores officia reiciendis dolorum.</p>
+        </div>
+
+        <div class="border-t mt-[2vh] pt-[1vh] border-[#ff66c4]">
+          <div class="flex justify-between items-center">
+            <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Nama</p>
+          <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Hadir</p>
+          </div>
+
+          <p class="mt-[1.3vh] text-[3vw] text-[#ff66c4]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum maxime nobis alias inventore corrupti non quibusdam itaque praesentium. Reiciendis in eaque modi quidem odit. Quasi asperiores officia reiciendis dolorum.</p>
+        </div>
+
+        <div class="border-t mt-[2vh] pt-[1vh] border-[#ff66c4]">
+          <div class="flex justify-between items-center">
+            <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Nama</p>
+          <p class=" text-[4vw] font-sancreek text-[#ff66c4]">Hadir</p>
+          </div>
+
+          <p class="mt-[1.3vh] text-[3vw] text-[#ff66c4]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum maxime nobis alias inventore corrupti non quibusdam itaque praesentium. Reiciendis in eaque modi quidem odit. Quasi asperiores officia reiciendis dolorum.</p>
+        </div>
+
+      </div>
+
+      <p class="mt-[5vh] text-[4vw] text-center font-sancreek text-[#ff66c4]">Created by:</p>
+      <p class="mt-[1vh] text-[4vw] text-center font-sancreek text-[#ff66c4]">Invite You Invitation</p>
+
+      <img src="./src/assets/bawah.png" alt="">
+      
+    </div>
+   
+  </section>
+  <script src="./src/assets/script.js"></script>
+</body>
+</html>
