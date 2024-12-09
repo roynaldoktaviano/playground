@@ -16,7 +16,7 @@ const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
 
 let currentIndex = 0;
-const totalImages = images.children.length;
+const totalImages = images.children.length / 2;
 
 function updateCarousel() {
   const offset = -currentIndex * 100;
