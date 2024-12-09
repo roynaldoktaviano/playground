@@ -921,6 +921,22 @@ video {
   height: 100vh;
 }
 
+.h-\[40vh\]{
+  height: 40vh;
+}
+
+.h-\[20vh\]{
+  height: 20vh;
+}
+
+.h-\[30vh\]{
+  height: 30vh;
+}
+
+.h-\[35vh\]{
+  height: 35vh;
+}
+
 .w-\[1\.4vh\]{
   width: 1.4vh;
 }
@@ -972,6 +988,10 @@ video {
 
 .w-screen{
   width: 100vw;
+}
+
+.w-\[50vw\]{
+  width: 50vw;
 }
 
 .max-w-\[600px\]{
