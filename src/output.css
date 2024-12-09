@@ -905,6 +905,14 @@ video {
   display: none;
 }
 
+.h-\[20vh\]{
+  height: 20vh;
+}
+
+.h-\[35vh\]{
+  height: 35vh;
+}
+
 .h-\[70vh\]{
   height: 70vh;
 }
@@ -919,22 +927,6 @@ video {
 
 .h-screen{
   height: 100vh;
-}
-
-.h-\[40vh\]{
-  height: 40vh;
-}
-
-.h-\[20vh\]{
-  height: 20vh;
-}
-
-.h-\[30vh\]{
-  height: 30vh;
-}
-
-.h-\[35vh\]{
-  height: 35vh;
 }
 
 .w-\[1\.4vh\]{
@@ -961,6 +953,10 @@ video {
   width: 45vw;
 }
 
+.w-\[50vw\]{
+  width: 50vw;
+}
+
 .w-\[8vh\]{
   width: 8vh;
 }
@@ -984,14 +980,6 @@ video {
 
 .w-full{
   width: 100%;
-}
-
-.w-screen{
-  width: 100vw;
-}
-
-.w-\[50vw\]{
-  width: 50vw;
 }
 
 .max-w-\[600px\]{
@@ -1863,10 +1851,6 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .rounded-b{
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -2040,6 +2024,10 @@ video {
 
 .bg-main{
   background-image: url(./assets/bg.jpg);
+}
+
+.bg-oval{
+  background-image: url(./assets/oval.png);
 }
 
 .bg-time{
@@ -2255,6 +2243,16 @@ video {
 .py-\[5vw\]{
   padding-top: 5vw;
   padding-bottom: 5vw;
+}
+
+.px-\[5vw\]{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.py-\[4vw\]{
+  padding-top: 4vw;
+  padding-bottom: 4vw;
 }
 
 .pt-\[1vh\]{
