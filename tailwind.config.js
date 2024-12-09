@@ -11,7 +11,8 @@ module.exports = {
         'main': "url(./assets/bg.jpg)",
         'clr': "url(./assets/bgg.png)",
         'time': "url(./assets/kad.png)",
-        'wkt': "url(./assets/wktu.png)"
+        'wkt': "url(./assets/wktu.png)",
+        'oval': "url(./assets/oval.png)" 
 
       }
     },
