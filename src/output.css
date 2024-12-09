@@ -726,8 +726,8 @@ video {
   margin-right: auto;
 }
 
-.mb-\[-8vh\]{
-  margin-bottom: -8vh;
+.mb-\[-7vh\]{
+  margin-bottom: -7vh;
 }
 
 .mt-2{
@@ -893,8 +893,8 @@ video {
   height: 20vh;
 }
 
-.h-\[35vh\]{
-  height: 35vh;
+.h-\[40vh\]{
+  height: 40vh;
 }
 
 .h-\[70vh\]{
@@ -911,10 +911,6 @@ video {
 
 .h-screen{
   height: 100vh;
-}
-
-.h-\[40vh\]{
-  height: 40vh;
 }
 
 .w-\[1\.4vh\]{
